@@ -21,7 +21,7 @@ sptBtn.addEventListener('click', (ev) =>{
 
 const rstBtn = document.getElementById('resetbtn')
 rstBtn.addEventListener('click', (ev) =>{
-    // ev.preventDefault()
-    document.getElementsByClassName('frm').reset()
+    ev.preventDefault()
+    document.querySelector('form').reset()
     document.getElementById('costPerson').innerHTML = '0'
 })
