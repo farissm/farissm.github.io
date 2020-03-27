@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="index.js"></script> -->
+    <title>Splitter</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            Split my Bill!
+        </header>
+        <form class="frm">
+            <label id="ttl">Total cost</label>
+            <input type="number" id="total" placeholder="add total cost">
+
+            <label id="ttl">Total person</label>
+            <input type="number" id="person" placeholder="add total person">
+
+            <label id="tax">Tax</label>
+            <input type="number" id="taxs" placeholder="add % of the tax">
+
+            <div class="buttonspace">
+                <button id="splitbtn">Split</button>
+                <button id="resetbtn">Reset</button>
+            </div>
+
+            <div id="costPerson">0</div>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+<footer>by bye</footer>
+</html>
